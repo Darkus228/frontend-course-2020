@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
-<head lang="ru">
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -14,8 +15,8 @@
   <meta name="twitter:description" content="twitter">
   <meta name="twitter:image:src" content="https://store-images.s-microsoft.com/image/apps.50484.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2c71c1ea-c28f-4dd1-b72d-c43cdd3476f4">
   <meta name="twitter:url" content="https://twitter.com/VladjSam">
-  <meta name="twitter:domain" content="https://twitter.com">
-  <meta name="twitter:site" content="https://twitter.com/VladjSam">
+  <meta name="twitter:domain" content="twitter.com">
+  <meta name="twitter:site" content="https://twitter.com/">
   <meta name="twitter:creator" content="Vlad Kryvokoniev">
 
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -33,15 +34,12 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/manifest.json">
 
-
-
-
   <title>PS1 title</title>
 </head>
-<body style="overflow: hidden;">
+<body>
 <header align="middle">
   <br>
-  <h1 style=" color: white">SPAGHETTI.ua</h1>
+  <h1>SPAGHETTI.ua</h1>
   <hr>
   <button class="button">Меню</button>
   <button class="button">Доставка та оплата</button>
@@ -52,8 +50,8 @@
   <h3>Безкоштовна доставка в радіусі 5км!</h3>
 </main>
 <footer>
-  <a href="tel:0987654321"><img width="20" src="./images/phone.svg">+380 98 765 43 21</a>
-  <a href="mailto:buy@spaghetti.ua"><img width="20" src="./images/email.svg">buy@spaghetti.ua</a>
+  <a href="tel:0987654321"><img src="./images/phone.svg" alt="phone">+380 98 765 43 21</a>
+  <a href="mailto:buy@spaghetti.ua"><img src="./images/email.svg" alt="email">buy@spaghetti.ua</a>
 </footer>
 <style>
 
@@ -64,20 +62,13 @@
   body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
     background: url("./images/pasta.jpg") center no-repeat;
   }
 
-  .button {
-    display: inline-block;
-    vertical-align: bottom;
-    text-align: center;
-    line-height: 30px;
-    background: white;
-    cursor: pointer;
+  header h1 {
+    color: white;
   }
-
-
-  .button:hover { background-color: lightgrey; }
 
   main {
     text-align: center;
@@ -103,6 +94,23 @@
     display: inline-block;
     margin: 10px;
   }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    line-height: 30px;
+    background: white;
+    cursor: pointer;
+  }
+
+
+  .button:hover { background-color: lightgrey; }
 </style>
 </body>
 </html>
