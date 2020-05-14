@@ -39,15 +39,15 @@
 <body>
 <header align="middle">
   <br>
-  <h1>SPAGHETTI.ua</h1>
+  <h1 class="text-color">SPAGHETTI.ua</h1>
   <hr>
   <button class="button">Меню</button>
   <button class="button">Доставка та оплата</button>
   <button class="button">Замовити</button>
 </header>
 <main>
-  <h1>Макарони додому</h1>
-  <h3>Безкоштовна доставка в радіусі 5км!</h3>
+  <h1 class="text-color">Макарони додому</h1>
+  <h3 class="text-color">Безкоштовна доставка в радіусі 5км!</h3>
 </main>
 <footer>
   <a href="tel:0987654321"><img src="./images/phone.svg" alt="phone">+380 98 765 43 21</a>
@@ -60,23 +60,19 @@
   }
 
   body {
-    margin: 0;
+    margin-left: 10px;
     padding: 0;
     overflow: hidden;
-    background: url("./images/pasta.jpg") center no-repeat;
+    background: url("./images/pasta.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
-  header h1 {
-    color: black;
-    text-shadow: 2px 1px 2px wheat;
-  }
-
-  main h1 {
-    text-shadow: 2px 1px 2px wheat;
-  }
-
-  main h3 {
-    text-shadow: 2px 1px 2px wheat;
+  .text-color {
+    color: blue;
+    text-shadow: 2px 1px 2px black;
   }
 
   main {
