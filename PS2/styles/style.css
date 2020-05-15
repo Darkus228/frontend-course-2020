@@ -1,0 +1,66 @@
+input[placeholder="Search"] {
+  color: #646d74;
+}
+
+li {
+  padding: 10px 0 10px 5px;
+}
+
+.col h1 {
+  padding: 15px;
+}
+
+.pad {
+  padding-top: 30px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.header__brand {
+  color: white;
+  background: #272b30;
+  padding: 15px;
+}
+
+.header__search {
+  background: #343a40;
+  padding-left: 0;
+}
+
+.header__search input {
+  background: #494e53;
+  border: none;
+  padding: 10px 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.header__login {
+  padding: 15px;
+  background: #343a40;
+  color: #939699;
+}
+
+.main__navbar {
+  background: #f8f9fa;
+  padding: 15px;
+}
+
+.main__button-style-orange {
+  border: none;
+  border-radius: 5px;
+  background: #fec108;
+  padding: 5px;
+}
+
+.main__button-style-red {
+  border: none;
+  border-radius: 5px;
+  background: #dd3645;
+  color: white;
+  padding: 5px;
+}
+
+
