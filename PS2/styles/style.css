@@ -6,6 +6,10 @@ li {
   padding: 10px 0 10px 5px;
 }
 
+input[type=checkbox]:checked {
+  background-color: #2196F3;
+}
+
 .col h1 {
   padding: 15px;
 }
